@@ -57,7 +57,10 @@ const config: ForgeConfig = {
           owner: 'brsantos197',
           name: 'electron-forge-auto-update',
         },
-        prerelease: true
+        prerelease: true,
+        force: true,
+        draft: true,
+        generateReleaseNotes: true,
       }
     }
   ]
